@@ -12,3 +12,11 @@ use slug::slugify;
 
 let slug = slugify("Hello world");
 ```
+
+## See
+
+`slug.wasm` for a pre-compiled file that should be useable.
+
+To regenerate, run:
+
+`cargo build --target wasm32-wasi`
